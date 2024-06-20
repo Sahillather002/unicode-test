@@ -14,9 +14,7 @@ const Home = () => {
         <button className={styles.button}>Go to Hello Page with Emoji</button>
       </Link>
       <Link href={`/${unicodeSample}`}>
-        <button className={styles.button}>
-          Go to Unicode Sample Page (Japanese)
-        </button>
+        <button className={styles.button}>Go to Unicode Sample Page</button>
       </Link>
     </div>
   );
