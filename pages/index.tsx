@@ -1,7 +1,7 @@
 // pages/index.tsx
 
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "@/styles/home.module.css";
 
 const Home = () => {
   const emoji = encodeURIComponent("hello👋");
